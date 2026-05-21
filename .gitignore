@@ -1,0 +1,10 @@
+# Bỏ qua môi trường ảo Python
+venv/
+__pycache__/
+
+# Bỏ qua thư viện thư mục Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Bỏ qua file rác hệ thống
+.DS_Store
