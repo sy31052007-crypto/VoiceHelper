@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Kích hoạt môi trường ảo (Windows PowerShell)
 .\venv\Scripts\activate
 
@@ -18,4 +19,26 @@ cd frontend
 npm install
 
 # Khởi chạy giao diện nhà phát triển
+=======
+# Kích hoạt môi trường ảo (Windows PowerShell)
+.\venv\Scripts\activate
+
+# Cài đặt các thư viện Python cần thiết
+pip install flask flask-cors google-generativeai
+
+# Mở file app.py điền API
+GEMINI_API_KEY = "MÃ_API_KEY_CỦA_BẠN"
+
+# Khởi động sever backend 
+python app.py
+
+# Môi trường Frontend
+# Di chuyển vào thư mục frontend
+cd frontend
+
+# Cài đặt các package liên quan
+npm install
+
+# Khởi chạy giao diện nhà phát triển
+>>>>>>> b42caa13f4ffe1b72e374533d02b71dadc4b622f
 npm run dev
