@@ -2,25 +2,27 @@
 
 :root {
   --font-sans: 'Inter', system-ui, sans-serif;
-  --color-background-primary: #ffffff;
-  --color-background-secondary: #f8f9fa;
-  --color-background-info: #e7f5ff;
-  --color-background-danger: #ffe3e3;
-  --color-background-warning: #fff3cd;
   
-  --color-text-primary: #212529;
-  --color-text-secondary: #495057;
-  --color-text-tertiary: #868e96;
-  --color-text-info: #1c7ed6;
-  --color-text-danger: #fa5252;
-  --color-text-success: #2b8a3e;
-  --color-text-warning: #856404;
+  /* Book-like Light Brown Theme */
+  --color-background-primary: #fdfbf7; /* Parchment white */
+  --color-background-secondary: #f4ebd8; /* Light latte / book paper edge */
+  --color-background-info: #e6d5b8; /* Highlight/active state */
+  --color-background-danger: #fae3e3;
+  --color-background-warning: #fcf1d7;
   
-  --color-border-secondary: #e9ecef;
-  --color-border-tertiary: #dee2e6;
-  --color-border-info: #74c0fc;
-  --color-border-danger: #ffa8a8;
-  --color-border-warning: #ffeeba;
+  --color-text-primary: #3e2723; /* Dark brown for high readability */
+  --color-text-secondary: #5d4037;
+  --color-text-tertiary: #8d6e63;
+  --color-text-info: #784a32; /* Rich warm brown for accents/icons */
+  --color-text-danger: #c94f4f;
+  --color-text-success: #527a55;
+  --color-text-warning: #9e6f00;
+  
+  --color-border-secondary: #e4d5c0;
+  --color-border-tertiary: #d7c4a8;
+  --color-border-info: #c4a98f;
+  --color-border-danger: #eab7b7;
+  --color-border-warning: #e3d09f;
   
   --border-radius-md: 8px;
   --border-radius-lg: 12px;
@@ -29,5 +31,5 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f1f3f5;
+  background-color: #f4ebd8;
 }

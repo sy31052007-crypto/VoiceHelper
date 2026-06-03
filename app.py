@@ -26,7 +26,7 @@ class LectureAnalysisSchema(pydantic.BaseModel):
 # 2. CẤU HÌNH GOOGLE GEMINI API
 # ==========================================================
 # Thay thế chuỗi dưới đây bằng API Key Gemini thực tế của bạn
-GEMINI_API_KEY = "Nhap AIP Gemini"
+GEMINI_API_KEY = "AIzaSyBQQGAby2XXjTPpxg7x6A9UtN2hGl33VKk"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # ==========================================================
