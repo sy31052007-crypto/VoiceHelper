@@ -10,6 +10,8 @@
 - 🧠 **Tóm Tắt Thông Minh**: Sử dụng mô hình AI tiên tiến `gemini-2.5-flash` để bóc tách, cô đọng nội dung bài giảng dài thành một đoạn tóm tắt ngắn gọn, súc tích.
 - 📋 **Trích Xuất Key Points**: Tự động liệt kê các luận điểm, kiến thức cốt lõi quan trọng nhất của bài học dưới dạng danh sách rõ ràng.
 - 🃏 **Tự Động Tạo Flashcards**: Hệ thống tự động phân tích văn bản để thiết kế bộ câu hỏi và câu trả lời tương ứng, hỗ trợ phương pháp ôn tập chủ động (Active Recall).
+- 📋 **Tự Động Phân Loại**: AI sẽ giúp tự động phân loại các nội dung của bài giảnn theo từng môn học khác nhau và thời gian để giúp người dùng có thể dễ dàng tìm kiếm các tài liệu phục vụ cho việc ôn rập và trau dồi kiến thức.
+- 🤖 **Trợ lí ảo**: Chatbot đồng hành cùng người dùng như một Mentor có thể giải đáp thắc mắc cho người dùng mỗi khi gặp khó khăn hay chưa hiểu cặn kẽ nội dung bài học và đưa ra các ví dụ hợp lí dễ hiểu để có thể truyền tải nội dung bài học một các đơn giản, tránh khô khan, trừu tượng cho người dùng.
 - 💾 **Xuất File Đa Dạng**: Cho phép người dùng tải xuống toàn bộ dữ liệu ghi chú dưới dạng file văn bản thuần `.txt` hoặc định dạng `.md` (Markdown) để dễ dàng đồng bộ vào các hệ sinh thái quản lý kiến thức như **Notion** hoặc **Obsidian**.
 
 ---
