@@ -32,17 +32,18 @@
 ---
 
 ## 📂 Cấu Trúc Thư Mục Dự Án
-
 ```text
 VoiceHelper/
-├── backend/ (hoặc file app.py ở thư mục gốc)
-│   └── app.py              # Xử lý API Endpoint, cấu hình Gemini AI
+├── app.py                  # Xử lý API Endpoint, cấu hình Gemini AI
 ├── frontend/
 │   ├── src/
 │   │   ├── App.jsx         # Logic và Giao diện chính của ứng dụng
+│   │   ├── ChatBox.jsx     # Giao diện Chatbot Trợ lý ảo
+│   │   ├── ChatBox.css     # Định dạng CSS cho Chatbot
 │   │   ├── main.jsx        # Điểm khởi chạy cấu hình React
 │   │   └── index.css       # Định nghĩa bảng màu hệ thống (CSS Variables)
 │   ├── index.html          # File HTML gốc của ứng dụng
 │   └── package.json        # Quản lý các thư viện Frontend
-├── venv/                   # Môi trường ảo của Python (Được ẩn qua .gitignore)
-└── .gitignore              # Chỉ định các file/thư mục không đẩy lên GitHub
+├── venv/                   # Môi trường ảo của Python
+└── README.md               # Tài liệu dự án
+```
