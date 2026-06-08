@@ -79,7 +79,7 @@ export default function App() {
   const identifySubject = (text) => {
     const lowerText = text.toLowerCase();
     if (lowerText.includes("Giải tích") || lowerText.includes("Calculus") || lowerText.includes("phương trình") || lowerText.includes("cộng")) return "Giải tích";
-    if (lowerText.includes("lý") || lowerText.includes("physics") || lowerText.includes("lực") || lowerText.includes("vận tốc") || lowerText.includes("năng lượng")) return "Vật lý"; 
+    if (lowerText.includes("vật lý") || lowerText.includes("physics") || lowerText.includes("lực") || lowerText.includes("vận tốc") || lowerText.includes("năng lượng")) return "Vật lý"; 
     if (lowerText.includes("Triết học") || lowerText.includes("philosophy") || lowerText.includes("chủ nghĩa") || lowerText.includes("xã hội")) return "Triết học";
     if (lowerText.includes("Xác suất thống kê") || lowerText.includes("tỉ lệ") || lowerText.includes("phần trăm") || lowerText.includes("xác suất")) return "Xác suất thống kê";
     if (lowerText.includes("Code") || lowerText.includes("lập trình") || lowerText.includes("react") || lowerText.includes("javascript")) return "Lập trình";

@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app)
 
 # ========== CẤU HÌNH GEMINI API ==========
-GEMINI_API_KEY = "AQ.Ab8RN6JVRjgVjFR3fdBuDA5ha5-xU6Zpkgqf39ZQ2gs3Sh--_w"
+GEMINI_API_KEY = "AIzaSyA3fugTaJgWO-QXgp8fDA9_aWPqdyruMC4"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # ========== SCHEMA CHO PROCESS-NOTE ==========
